@@ -1,0 +1,168 @@
+
+@media  screen and (max-width:1000px) {
+    .container{
+        width: 100%;
+    }
+
+
+    .nav_wrap__menuItems ul{
+        column-gap: 30px;
+    }
+
+
+    /* ++++++++++++++++++++++++++++    BANNER +++++++++++++++++++++++++ */
+    .banner_wrap h1::after {
+        bottom: -2px;
+    }
+
+    .banner_wrap h1{
+        font-size: 100px;
+    }
+
+    .banner_wrap h2{
+        font-size: 56px;
+    }
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ SERVICE ++++++++++++++++++++++++ */
+    #stat{
+        justify-content: center;
+    }
+
+
+/* +++++++++++++++++++++++++++++++++ PIC WORK +++++++++++++++++++++++++++++++++++++ */
+    .picW{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+
+    .picw .div{
+        width: 50%;
+        
+    }
+}
+
+
+
+@media screen and (max-width:800px){
+    
+
+    /* =======================NAV======================= */
+
+   
+    .nav_wrap{
+        display: block;
+        height: 60px;
+        
+    }
+
+    .nav_wrap__logo{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 35px;
+        align-items: center;
+    }
+
+    .nav_wrap__logo .icon{
+        display: block;
+        padding-right: 10px;
+        color: #fff;
+    }
+
+    .icon:hover{
+        color:#4d4838;
+    }
+
+
+    .nav_wrap__menuItems ul{
+        text-align: right;
+        margin-top: -10px;
+        display: block;
+        background-color:rgba(208, 221, 159, 0.5);
+        
+    }
+
+    .nav_wrap__menuItems ul ol a{
+        font-size: 20px;
+    }
+
+
+    /* ++++++++++++++++++++++++++++    BANNER +++++++++++++++++++++++++ */
+    .banner_wrap h1::after {
+        bottom: 124px;
+    }
+
+    .banner_wrap h1{
+        font-size: 60px;
+    }
+
+    .banner_wrap h2{
+        font-size: 36px;
+    }
+
+/* ++++++++++++++++++++++++++++++++++++++++ ABOUT ++++++++++++++++++++++++ */
+
+    .about_wrap p{
+        width: 99%;
+        padding: 45px 2px;
+    }
+
+    .about_wrap h4::after {
+        bottom: -21%;
+    }
+
+/* ++++++++++++++++++++++++++++++++++++++++ SERVICE ++++++++++++++++++++++++ */
+
+    #service{
+        width: 100%;
+    }
+
+
+/* +++++++++++++++++++++++++++++++++++++++++ QUOTES ++++++++++++++++++++++++ */
+    .quote_wrap{
+        flex-wrap: wrap;
+        padding: 5px;
+        padding-bottom: 66px;
+    }
+    
+    .quote_icon{
+        font-size: 30px;
+        padding: 15px;
+        margin: 6px;
+    }
+    
+
+
+
+    /* +++++++++++++++++++++++++++++++++++ TEAM ++++++++++++++++++++++++++++++++ */
+
+    .team_txt1{
+        width: 100%;
+        
+    }
+
+    .twork{
+        width: 100%;
+
+    }
+
+
+    /* +++++++++++++++++++++++++++++++++ PIC WORK +++++++++++++++++++++++++++++++++++++ */
+
+
+    .pic{
+        width: 100%;
+    }
+    .picw .div{
+        width: 50%;
+        
+    }
+
+    .picw .div .pic a img{
+        object-fit: contain;
+        
+    }
+
+
+}

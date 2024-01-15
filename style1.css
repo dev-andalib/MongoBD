@@ -5,8 +5,9 @@
 }
 
 .container{
-    width: 1200px;
+    width: 98%;
     margin: 0 auto;
+    
 }
 
 a{
@@ -38,29 +39,41 @@ ul ol { list-style: none;
     position: absolute;
     width: 100%;
 }
+
+
 .nav_wrap{
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 padding-top: 36px;
 }
+
+
+
 .nav_wrap__logo h1{
     font-family: 'Montserrat', sans-serif;
     color:#fff;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
 }
 
+
+.nav_wrap__logo .icon{
+    display: none;
+}
+
 .nav_wrap__menuItems ul{
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
     column-gap: 53px;
 }
 .nav_wrap__menuItems ul ol a{
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 560;
+    font-size: 24px;
     position: relative;
     
 }
@@ -69,7 +82,7 @@ padding-top: 36px;
     content: "";
     width:0;
     height: 1px;
-    background-color: #fce38a;
+    background-color: #444030;
     bottom: 0;
     left: 0;
     transition: all linear 0.3s;
@@ -78,13 +91,13 @@ padding-top: 36px;
     width: 100%;
 }
 .nav_wrap__menuItems ul ol a:hover{
-    color:#fce38a;
+    color:#4d4838;
 }
 /* nav bar :end */
 
 /* banner :start */
 #banner{
-    background: linear-gradient(rgba(252, 227, 138, 0.90), rgba(243, 129, 129, 0.90)), url(../Mongo/banner1.jpg);
+    background: linear-gradient(rgba(252, 227, 138, 0.90), rgba(243, 129, 129, 0.90)), url(./banner1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,15 +190,20 @@ padding-top: 36px;
     font-weight:400 ;
     color: #999;
     padding-bottom: 106px;
+    width: 800px;
+    margin: 0 auto;
 }
 .about__img{
     display: flex;
-     column-gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 
 }
 .about__img .pic1, .about__img .pic2, .about__img .pic3{
     overflow: hidden;
     position: relative;
+    
 }
 
 .about__img .pic1 a img, .about__img .pic2 a img, .about__img .pic3 a img{
@@ -214,7 +232,9 @@ padding-top: 36px;
     background-color: #95e1d3;
     padding: 90px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    gap: 30px;
 }
 .stat__1 h4, .stat__2 h4, .stat__3 h4, .stat__4 h4, .stat__5 h4{
     font-family: 'Montserrat', sans-serif;
@@ -272,15 +292,14 @@ padding-top: 36px;
 .ser_items{
     padding-top: 109px;
     display: flex;
-    flex-flow: wrap row;
-    justify-content: space-between;
-    row-gap: 99px;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 .ser_items .item{
-    width: 33%;
+    width: 350px;
     display: flex;
     column-gap: 25px;
-    padding-left: 115px;
     align-items: top;
 }
 .ser_items .item .ser_two .i_text{
@@ -325,6 +344,7 @@ padding-top: 36px;
 }
 .quote_wrap{
     display: flex;
+
     column-gap: 60px;
     align-items: center;
     padding-bottom:66px ;
@@ -359,6 +379,8 @@ padding-top: 36px;
 .team_txt1{
     text-align: center;
     padding-top: 92px;
+    width: 800px;
+    margin: 0 auto;
     
 }
 .team_txt1 h4, .team_txt1 h3{
@@ -398,7 +420,9 @@ padding-top: 36px;
 .tpic{
     padding-top: 94px;
     display: flex;
-    column-gap:33px ;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:33px ;
 }
 .tpic .one  .img{
     overflow: hidden;
@@ -451,6 +475,8 @@ padding-top: 36px;
 .twork{
     text-align: center;
     padding-top: 83px;
+    width: 800px;
+    margin: 0 auto;
     
 }
 .twork h4, .twork h3{
@@ -531,8 +557,9 @@ padding-top: 36px;
 .picw{
     padding-top: 103px;
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 96px;
-    
+    width: 100%;
 
 }
 .picw .div{
@@ -761,3 +788,7 @@ padding-top: 36px;
 /* font-family: 'Kaushan Script', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
+
+
+
